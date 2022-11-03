@@ -1,0 +1,1 @@
+web: gunicorn Gymnasium.wsgi:application --log-file -
